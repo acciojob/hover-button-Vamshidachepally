@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Submit Button Hover</title>
+  <style>
+    #btn {
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.3s ease;
+    }
+
+    #btn:hover {
+      background-color: yellow;
+      color: black;
+      border-radius: 30px;
+    }
+  </style>
 </head>
-
 <body>
-	<title>Submit Button with Hover</title>
-	<style>
-		#btn{
-			background-color:black;
-			font-color:white;
-			border:none;
-			border-radius:5px;
-			transition: all 0.3s ease;
-		}
-		#btn:hover{
-			background-color: yellow;
-			color: black;
-			border-radius: 30px;
-			
-		}
-	</style>
-</body>
-	<body>
-		<button id="btn" type="submit">Submit</button>
-	</body>
 
+  <button id="btn" type="submit">Submit</button>
+
+</body>
 </html>
